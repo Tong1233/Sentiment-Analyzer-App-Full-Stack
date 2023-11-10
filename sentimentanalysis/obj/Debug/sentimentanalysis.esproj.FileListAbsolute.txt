@@ -1,0 +1,1 @@
+C:\Users\16472\Documents\GitHub\SentimentAnalysis\SentimentAnalysis\obj\Debug\sentimentanalysis.esproj.CoreCompileInputs.cache
