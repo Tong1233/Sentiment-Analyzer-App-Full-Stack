@@ -7,8 +7,18 @@ const tokenizer = new natural.WordTokenizer();
 
 const app = express();
 const port = process.env.PORT || 5000;
-app.use(cors()); // Use the cors middleware to enable CORS handling
+
+const corsOptions = {
+    origin: 'http://localhost:5173',
+};
+
+app.use(cors(corsOptions));
 app.use(bodyParser.json());
+
+// Define a route handler for the root URL
+app.get('/', (req, res) => {
+    res.send('Hello Backend'); // You can customize this message
+});
 
 app.post('/analyze', (req, res) => {
     const { text } = req.body;

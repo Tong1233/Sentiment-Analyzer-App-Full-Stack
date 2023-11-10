@@ -6,7 +6,7 @@ const SentimentAnalysis = () => {
 
     const analyzeSentiment = async () => {
         try {
-            const response = await fetch('http://localhost:5000/analyze', {
+            const response = await fetch('https://sentiment-backend-1w0n.onrender.com:10000/analyze', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
