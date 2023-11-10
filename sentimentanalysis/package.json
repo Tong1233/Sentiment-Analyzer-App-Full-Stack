@@ -24,6 +24,5 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "concurrently": "^7.0.0",
     "vite": "^4.4.5"
-  },
-  "proxy": "https://sentiment-backend-w44q.onrender.com:10000"
+  }
 }

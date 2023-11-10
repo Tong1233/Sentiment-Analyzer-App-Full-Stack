@@ -6,7 +6,7 @@ const cors = require('cors'); // Import the cors package
 const tokenizer = new natural.WordTokenizer();
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5001;
 
 const corsOptions = {
     origin: 'http://localhost:5173',
